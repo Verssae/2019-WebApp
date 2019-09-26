@@ -1,0 +1,69 @@
+body {
+	font-family: "Helvetica", "Vedana", sans-serif;
+	color: #939396;
+    background-color: #1d2475;
+    background-image: url('cse326bg.jpg');
+    background-repeat: no-repeat;
+    background-position: right top 
+}
+
+h1 {
+    font-size: 40pt;
+    text-shadow: 3px -3px green;
+}
+
+h1,
+h2 {
+	color: #f7931e;
+}
+
+dl {
+	font-size: 70%;
+}
+
+dt {
+	font-weight: bold;
+}
+
+p::first-letter {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+a:link {
+	color: #ff4f4f;
+}
+
+strong, dt {
+    color: #FFF86B;
+}
+
+q {
+    color: #D1DFEB;
+}
+
+ol, ul, blockquote {
+    text-align: left;
+}
+
+a:link, :visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table, td, th {
+    border: dotted;
+    border-collapse: collapse;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    outline: #f7931e thick ridge
+}
+
