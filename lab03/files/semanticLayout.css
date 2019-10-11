@@ -1,5 +1,7 @@
 
-
+body *:hover {
+	background-color: #A6CE39 ;
+}
 header {
 	border-width: thick;
 	background-color: #1d2475;
@@ -39,11 +41,11 @@ body {
     
 }
 
-main {
+#main {
 	border: 10px solid white;
 	border-width: thick;
     background-color: white;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 aside {
@@ -57,17 +59,10 @@ aside {
 }
 
 #wrapper {
-	width:100%;
-	float: right;
-	margin-left: -180px;
-	padding-left: 180px;
-	box-sizing: border-box;
+	overflow: hidden;
 }
 
 footer {
 	clear: left;
 }
 
-*:hover {
-	background-color: #A6CE39 ;
-}
