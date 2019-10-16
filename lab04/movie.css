@@ -1,0 +1,135 @@
+body {
+    background-image: url('background.png');
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#banner {
+    background-image: url(bannerbg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 50px;
+}
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Vedana, sans-serif;
+    text-shadow: 3px 3px #999999;
+    
+}
+
+#content {
+    width: 800px;
+    border: 4px gray solid;
+    border-radius: 20px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#left {
+    width: 550px;
+    overflow: hidden;
+}
+
+#top {
+    background-image: url("rbg.png");
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    text-align: left;
+}
+
+#top img {
+    vertical-align: bottom;
+    height: 83px
+}
+
+.col {
+    width: 47%;
+    float: left;
+    margin: 2%;
+    text-align: justify;
+}
+
+#right-col {
+    margin-left: 0%;
+}
+
+.col p:nth-child(2n+1) {
+    font-weight: bold;
+    background: #E8DC9B;
+    border-radius: 10px;
+    border: 2px gray solid;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.col p:nth-child(2n+1) > img {
+    padding-right: 5px;
+    float: left;
+}
+
+.col p:nth-child(2n) {
+    overflow: hidden;
+    font-style: italic;
+    margin-bottom: 20pt;
+
+}
+
+.col p:nth-child(2n)::first-line {
+    font-style: normal;
+}
+
+
+.col p:nth-child(2n) > img {
+    padding-right: 5px;
+    float: left;
+}
+
+#right {
+    width: 250px;
+    background: #A2B964;
+    float: right;
+    text-align: left;
+}
+
+#right dl {
+    padding: 0pt 10pt 0pt 10pt;
+    font-family: Arial, sans-serif;
+}
+
+#right dt {
+    font-weight: bold;
+    margin-top: 10pt;
+}
+#right dd {
+    text-align: left;
+
+}
+#right dd ul {
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#content > p {
+    width: 100%;
+    background: #a2b964;
+    padding: 5px;
+    clear: both;
+    margin: 0px;
+}
+
+#validator {
+    opacity: 0.5;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}
