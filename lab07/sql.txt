@@ -1,0 +1,8 @@
+select * from `student`;
+desc `student`;
+create table department(
+    dept_no int primary key auto_increment,
+    dept_name varchar(20) not null UNIQUE,
+    office varchar(20) not null,
+    office_tel varchar(13)
+);
